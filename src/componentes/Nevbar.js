@@ -12,10 +12,10 @@ export default function Nevbar() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item ">
-        <link className="nav-link" to="/">Home <span className="sr-only">(current)</span></link>
+        <a className="nav-link" href="/">Home</a>
       </li>
       <li className="nav-item">
-        <link className="nav-link" to="/about">About</link>
+        <a className="nav-link" href="/about">About</a>
       </li>
       
     </ul>
